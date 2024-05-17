@@ -1,0 +1,6 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.yourorg.SayHelloToFooBar
+recipeList:
+  - org.openrewrite.samples.SayHelloRecipe:
+      fullyQualifiedClassName: com.yourorg.FooBar
