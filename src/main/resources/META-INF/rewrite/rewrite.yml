@@ -1,0 +1,6 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: ntou.cse.soselab.SayHelloToFooBar
+recipeList:
+  - ntou.cse.soselab.SayHelloRecipe:
+      fullyQualifiedClassName: "ntou.cse.soselab.FooBar"
