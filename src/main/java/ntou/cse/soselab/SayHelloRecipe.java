@@ -28,12 +28,12 @@ public class SayHelloRecipe extends Recipe {
         this.fullyQualifiedClassName = fullyQualifiedClassName;
     }
 
-    @Override
+    @Override  // abstract method
     public String getDisplayName() {
         return "Say Hello";
     }
 
-    @Override
+    @Override  // abstract method
     public String getDescription() {
         return "Adds a \"hello\" method to the specified class.";
     }
