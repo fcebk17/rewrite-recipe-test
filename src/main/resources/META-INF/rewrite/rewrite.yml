@@ -1,6 +1,6 @@
----
+--- #META-INF/rewrite 內的 yaml 不會被打包為 jar
 type: specs.openrewrite.org/v1beta/recipe
-name: ntou.cse.soselab.SayHelloToFooBar
+name: ntou.cse.soselab.SayHelloToFooBar  # Recipe name
 recipeList:
   - ntou.cse.soselab.SayHelloRecipe:
-      fullyQualifiedClassName: "ntou.cse.soselab.FooBar"
+      fullyQualifiedClassName: "ntou.cse.soselab.FooBar"  # 傳入參數
